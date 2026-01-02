@@ -1,0 +1,8 @@
+create a new repository on the command line
+echo "# first-practice-project" >> README.md
+git init // one time each project to start git//
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Olinurrah/first-practice-project.git
+git push -u origin main
